@@ -133,7 +133,7 @@ def num_points_scored(name)
     players =  game_hash[:home][:players] + game_hash[:away][:players] 
     players.each do | player |
       if game_hash[:home][:players][player][:player_name] == name
-        return game_hash[:home][:players][count][:points]
+        return game_hash[:home][:players][player][:points]
     
     while count < 5 do
         if game_hash[:home][:players][count][:player_name] == name
