@@ -1,4 +1,5 @@
-# Write your code here!
+require 'pry'
+
 def game_hash
     hash = {
         :home => {
@@ -275,4 +276,3 @@ end
 def long_name_steals_a_ton?
   return true
 end
-
